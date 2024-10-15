@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="tugas.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="360_F_298413291_HREhbk9DmGDiq0silqdVzFDGbvPyf9Im.jpg" alt="Acedesign Logo">
+                <h1>Acedesign</h1>
+            </div>
+            <nav class="menu">
+                <a href="#" class="active">Overview</a>
+                <a href="#">Orders</a>
+                <a href="#">Products</a>
+                <a href="#">Settings</a>
+                <h3>Business</h3>
+                <a href="#">Shipment</a>
+                <a href="#">Employee</a>
+            </nav>
+            <div class="footer">
+                <p>&copy; ACEDESIGN 2022</p>
+                <p>Platform for solution of all types of businesses to be more advanced.</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <input type="text" placeholder="Search for product">
+                <div class="icons">
+                    <i class="icon-bell"></i>
+                    <i class="icon-settings"></i>
+                </div>
+            </header>
+
+            <section class="overview">
+                <div class="overview-item">
+                    <h2>$27,340.00</h2>
+                    <p>Total Sales</p>
+                    <span>+24%</span>
+                </div>
+                <div class="overview-item">
+                    <h2>$7,340.00</h2>
+                    <p>Total Expenses</p>
+                    <span>-32%</span>
+                </div>
+                <div class="overview-item">
+                    <h2>18,340.00</h2>
+                    <p>Total Visitors</p>
+                    <span>+48%</span>
+                </div>
+                <div class="overview-item">
+                    <h2>11,340</h2>
+                    <p>Total Orders</p>
+                    <span>-12%</span>
+                </div>
+            </section>
+
+            <section class="chart-section">
+                <h3>Income vs Expense</h3>
+                <canvas id="incomeChart"></canvas>
+            </section>
+
+            <section class="popular-products">
+                <h3>Popular Products</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Photos</th>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Category</th>
+                            <th>Brand</th>
+                            <th>Price</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="iphone.png" alt="iPhone"></td>
+                            <td>Iphone 13</td>
+                            <td>Apr 12, 2022</td>
+                            <td>Technic</td>
+                            <td>Apple</td>
+                            <td>$99.89</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td><img src="macbook.png" alt="Macbook"></td>
+                            <td>Macbook 14</td>
+                            <td>Apr 12, 2022</td>
+                            <td>Technic</td>
+                            <td>Apple</td>
+                            <td>$399.89</td>
+                            <td>Available</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+           <section>
+            <div class="content-section">
+                <div class="recent-orders">
+                    <h3>Recent Orders</h3>
+                    <ul>
+                       
+                    </ul>
+                </div>
+            </div>
+            
+           </section>
+        </main>
+    </div>
+
+    <script src="tgs.chart.js"></script>
+</body>
+</html>
